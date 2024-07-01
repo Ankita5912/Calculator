@@ -1,0 +1,31 @@
+*{
+  background-color: rgb(158, 175, 173);
+}
+
+
+#calculator{
+  display: grid;
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 5px 5px;
+  height: 50vh;
+  width: 48vw;
+  text-align: center;
+}
+#display{
+  padding: 6px;
+  border-radius: 5px;
+  height: 9vh;
+  width: 45vw;
+}
+button{
+  border-radius: 5px;
+  padding: 5px 5px;
+  background-color: rgba(53, 70, 68, 0.707);
+  color: rgb(255, 255, 255);
+  height: 6vh;
+  width: 10vw;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+

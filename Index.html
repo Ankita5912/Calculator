@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="calculator.css">
+  <title>Ankita's Calculator</title>
+</head>
+<body>
+  <h1>Welcome ! Start your calculation here</h1>
+  <div id = "calculator">
+    <div id="input"><input type="text" id="display" readonly value="" placeholder="Calcuate Here">
+    </div>
+      <div id="row1">        
+        <button id="row1Button1" class="specialbutton" onclick="allclear()">AC</button>
+        <button id="row1Button2" class="special2button" onclick="del()">DEL</button>
+        <button id="row1Button3" class="button">%</button>
+        <button id="row1Button4" class="button">/</button>
+      </div>
+      <div id="row2">        
+        <button id="row2Button1" class="button">7</button>
+        <button id="row2Button2" class="button" >8</button>
+        <button id="row2Button3" class="button">9</button>
+        <button id="row2Button4" class="button">*</button>
+      </div>
+      <div id="row3">
+        <button id="row3Button1" class="button">4</button>
+        <button id="row3Button2" class="button">5</button>
+        <button id="row3Button3" class="button">6</button>
+        <button id="row3Button4" class="button">-</button>
+      </div>
+      <div id="row4">
+        <button id="row4Button1" class="button">1</button>
+        <button id="row4Button2" class="button">2</button>
+        <button id="row4Button3" class="button">3</button>
+        <button id="row4Button4" class="button">+</button>
+      </div>
+      <div id="row5">
+        <button id="row5Button1" class="button">0</button>
+        <button id="row5Button2" class="button">00</button>
+        <button id="row5Button3" class="button">.</button>
+        <button id="row5Button4" class="special3button" onclick="result()">=</button>
+      </div>
+  </div>
+  <Script src="calculator.js"></Script>
+</body>
+</html>
